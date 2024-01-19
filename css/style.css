@@ -39,6 +39,8 @@ ul{
 }
 
 .header-menu a{
+    font-family: 'Poppins';
+    font-weight: 400;
     display: inline-block;
     padding: 16px 0px;
     color: #fff;
@@ -123,6 +125,8 @@ h1, p{
 }
 
 .introducao div h1{
+    font-family: 'Poppins';
+    font-weight: 600;
     line-height: 1.125;
     font-size: 4rem;
     margin-bottom: 32px;
@@ -130,9 +134,13 @@ h1, p{
 
 .ponto-amarelo{
     color: #ffbb00;
+    font-family: 'Poppins';
+    font-weight: 600;
 }
 
 .introducao div p{
+    font-family: 'Roboto';
+    font-weight: 400;
     font-size: 1.5rem;
     color: #b2b2b2;
     line-height: 1.5;
@@ -140,6 +148,8 @@ h1, p{
 }
 
 .introducao div a{
+    font-family: 'Poppins';
+    font-weight: 600;
     display: inline-block;
     font-size: 1.125;
     line-height: 1.33;
@@ -167,10 +177,12 @@ h1, p{
 
 @media(max-width: 800px){
     .introducao-bg{
+        background-color: #111111;
         box-shadow: inset 0px -60px white;
         padding-top: 20px;
     }
     .introducao{
+        background-color: #111111;
         grid-template-columns: 1fr;
     }
     .introducao div h1{
